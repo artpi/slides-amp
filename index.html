@@ -17,8 +17,47 @@
 		<link rel="stylesheet" href="reveal.js/css/reveal.css">
 		<link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme">
 
+		<link rel="stylesheet" href="lib/progress-wizard.min.css">
+
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
+
+<style>
+.subway .progress-indicator {
+	width:100%;
+	position:absolute;
+	margin:0;
+	padding:0;
+	display:flex
+}
+
+.subway .progress-indicator .bubble::before,
+.subway .progress-indicator .bubble::after {
+	color:inherit;
+	background-color:inherit;
+}
+.progress-1 .subway .progress-indicator li:nth-child(-n+1) .bubble{ background-color:white; }
+.progress-2 .subway .progress-indicator li:nth-child(-n+2) .bubble{ background-color:white; }
+.progress-3 .subway .progress-indicator li:nth-child(-n+3) .bubble{ background-color:white; }
+.progress-4 .subway .progress-indicator li:nth-child(-n+4) .bubble{ background-color:white; }
+.progress-5 .subway .progress-indicator li:nth-child(-n+5) .bubble{ background-color:white; }
+.progress-6 .subway .progress-indicator li:nth-child(-n+6) .bubble{ background-color:white; }
+.progress-7 .subway .progress-indicator li:nth-child(-n+7) .bubble{ background-color:white; }
+.progress-8 .subway .progress-indicator li:nth-child(-n+8) .bubble{ background-color:white; }
+.progress-9 .subway .progress-indicator li:nth-child(-n+9) .bubble{ background-color:white; }
+.progress-10 .subway .progress-indicator li:nth-child(-n+10) .bubble{ background-color:white; }
+.progress-11 .subway .progress-indicator li:nth-child(-n+11) .bubble{ background-color:white; }
+.progress-12 .subway .progress-indicator li:nth-child(-n+12) .bubble{ background-color:white; }
+.progress-13 .subway .progress-indicator li:nth-child(-n+13) .bubble{ background-color:white; }
+.progress-15 .subway .progress-indicator li:nth-child(-n+15) .bubble{ background-color:white; }
+.progress-16 .subway .progress-indicator li:nth-child(-n+16) .bubble{ background-color:white; }
+.progress-17 .subway .progress-indicator li:nth-child(-n+17) .bubble{ background-color:white; }
+.progress-18 .subway .progress-indicator li:nth-child(-n+18) .bubble{ background-color:white; }
+.progress-19 .subway .progress-indicator li:nth-child(-n+19) .bubble{ background-color:white; }
+.progress-20 .subway .progress-indicator li:nth-child(-n+20) .bubble{ background-color:white; }
+.progress-21 .subway .progress-indicator li:nth-child(-n+21) .bubble{ background-color:white; }
+
+</style>
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -46,6 +85,56 @@
 					<p>
 						<small><a href="http://piszek.com">Artur Piszek</a> / <a href="http://twitter.com/artpi">@artpi</a></small>
 					</p>
+				</section>
+
+				<section class="subway">
+				    <ul class="progress-indicator">
+			            <li><span class="bubble"></span></li>
+			            <li><span class="bubble"></span></li>
+			            <li><span class="bubble"></span></li>
+			            <li><span class="bubble"></span></li>
+			            <li><span class="bubble"></span></li>
+			            <li><span class="bubble"></span></li>
+			            <li><span class="bubble"></span></li>
+			            <li><span class="bubble"></span></li>
+			            <li><span class="bubble"></span></li>
+			            <li><span class="bubble"></span></li>
+			            <li><span class="bubble"></span></li>
+			            <li><span class="bubble"></span></li>
+			            <li><span class="bubble"></span></li>
+			            <li><span class="bubble"></span></li>
+			            <li><span class="bubble"></span></li>
+			            <li><span class="bubble"></span></li>
+			            <li><span class="bubble"></span></li>
+			            <li><span class="bubble"></span></li>
+			            <li><span class="bubble"></span></li>
+			            <li><span class="bubble"></span></li>
+			            <li><span class="bubble"></span></li>
+			        </ul>
+
+					<section data-state="progress-1">
+						<h2>Kabaty</h2>
+						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+					</section>
+
+					<section data-state="progress-2">
+						<h2>Stokłosy</h2>
+						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+					</section>
+
+					<section data-state="progress-3">
+						<h2>Stokłosy</h2>
+						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+					</section>
+
+					<section data-state="progress-4">
+						<h2>Stokłosy</h2>
+						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+					</section>
+					<section data-state="progress-5">
+						<h2>Stokłosy</h2>
+						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+					</section>
 				</section>
 
 			</div>
