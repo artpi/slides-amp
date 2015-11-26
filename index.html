@@ -30,33 +30,45 @@
 	padding:0;
 	display:flex
 }
-
+.subway .progress-indicator > li >.bubble {
+	background-color: white
+}
 .subway .progress-indicator .bubble::before,
 .subway .progress-indicator .bubble::after {
 	color:inherit;
 	background-color:inherit;
 }
-.progress-1 .subway .progress-indicator li:nth-child(-n+1) .bubble{ background-color:white; }
-.progress-2 .subway .progress-indicator li:nth-child(-n+2) .bubble{ background-color:white; }
-.progress-3 .subway .progress-indicator li:nth-child(-n+3) .bubble{ background-color:white; }
-.progress-4 .subway .progress-indicator li:nth-child(-n+4) .bubble{ background-color:white; }
-.progress-5 .subway .progress-indicator li:nth-child(-n+5) .bubble{ background-color:white; }
-.progress-6 .subway .progress-indicator li:nth-child(-n+6) .bubble{ background-color:white; }
-.progress-7 .subway .progress-indicator li:nth-child(-n+7) .bubble{ background-color:white; }
-.progress-8 .subway .progress-indicator li:nth-child(-n+8) .bubble{ background-color:white; }
-.progress-9 .subway .progress-indicator li:nth-child(-n+9) .bubble{ background-color:white; }
-.progress-10 .subway .progress-indicator li:nth-child(-n+10) .bubble{ background-color:white; }
-.progress-11 .subway .progress-indicator li:nth-child(-n+11) .bubble{ background-color:white; }
-.progress-12 .subway .progress-indicator li:nth-child(-n+12) .bubble{ background-color:white; }
-.progress-13 .subway .progress-indicator li:nth-child(-n+13) .bubble{ background-color:white; }
-.progress-14 .subway .progress-indicator li:nth-child(-n+14) .bubble{ background-color:white; }
-.progress-15 .subway .progress-indicator li:nth-child(-n+15) .bubble{ background-color:white; }
-.progress-16 .subway .progress-indicator li:nth-child(-n+16) .bubble{ background-color:white; }
-.progress-17 .subway .progress-indicator li:nth-child(-n+17) .bubble{ background-color:white; }
-.progress-18 .subway .progress-indicator li:nth-child(-n+18) .bubble{ background-color:white; }
-.progress-19 .subway .progress-indicator li:nth-child(-n+19) .bubble{ background-color:white; }
-.progress-20 .subway .progress-indicator li:nth-child(-n+20) .bubble{ background-color:white; }
-.progress-21 .subway .progress-indicator li:nth-child(-n+21) .bubble{ background-color:white; }
+.progress-1 .subway .progress-indicator li:nth-child(-n+1) .bubble{ background-color:#3465cb; }
+.progress-2 .subway .progress-indicator li:nth-child(-n+2) .bubble{ background-color:#3465cb; }
+.progress-3 .subway .progress-indicator li:nth-child(-n+3) .bubble{ background-color:#3465cb; }
+.progress-4 .subway .progress-indicator li:nth-child(-n+4) .bubble{ background-color:#3465cb; }
+.progress-5 .subway .progress-indicator li:nth-child(-n+5) .bubble{ background-color:#3465cb; }
+.progress-6 .subway .progress-indicator li:nth-child(-n+6) .bubble{ background-color:#3465cb; }
+.progress-7 .subway .progress-indicator li:nth-child(-n+7) .bubble{ background-color:#3465cb; }
+.progress-8 .subway .progress-indicator li:nth-child(-n+8) .bubble{ background-color:#3465cb; }
+.progress-9 .subway .progress-indicator li:nth-child(-n+9) .bubble{ background-color:#3465cb; }
+.progress-10 .subway .progress-indicator li:nth-child(-n+10) .bubble{ background-color:#3465cb; }
+.progress-11 .subway .progress-indicator li:nth-child(-n+11) .bubble{ background-color:#3465cb; }
+.progress-12 .subway .progress-indicator li:nth-child(-n+12) .bubble{ background-color:#3465cb; }
+.progress-13 .subway .progress-indicator li:nth-child(-n+13) .bubble{ background-color:#3465cb; }
+.progress-14 .subway .progress-indicator li:nth-child(-n+14) .bubble{ background-color:#3465cb; }
+.progress-15 .subway .progress-indicator li:nth-child(-n+15) .bubble{ background-color:#3465cb; }
+.progress-16 .subway .progress-indicator li:nth-child(-n+16) .bubble{ background-color:#3465cb; }
+.progress-17 .subway .progress-indicator li:nth-child(-n+17) .bubble{ background-color:#3465cb; }
+.progress-18 .subway .progress-indicator li:nth-child(-n+18) .bubble{ background-color:#3465cb; }
+.progress-19 .subway .progress-indicator li:nth-child(-n+19) .bubble{ background-color:#3465cb; }
+.progress-20 .subway .progress-indicator li:nth-child(-n+20) .bubble{ background-color:#3465cb; }
+.progress-21 .subway .progress-indicator li:nth-child(-n+21) .bubble{ background-color:#3465cb; }
+
+.subway section h2 {
+	color: #3465cb;
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
+	background-color:white;
+	text-transform: none;
+	padding: 15px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
 
 .subway section .screen {
 	width:25%;
@@ -305,7 +317,70 @@
 					</section>
 
 				</section>
+				<section>
+					<section>
+					  	<h1>Co to AMP?</h1>
 
+						<p>Podbiór języka HTML</p>
+						<p>Zaprojektowany dla cache i proxy</p>
+					</section>
+
+					<section>
+						<h2>Już działa</h2>
+						<p>Podzbiór - AMP HTML jest obsługiwany przez każdą przeglądarkę</p>
+					</section>
+
+					<section>
+						<h2>Błyskawiczny</h2>
+						<p>Zoptymalizowany pod pre-rendering</p>
+						<p>Obrazki inline przed foldem</p>
+						<p>Łatwo cache'owalny</p>
+					</section>
+
+					<section>
+					 	<h2>Zabronione</h2>
+
+						<p class=fragment>Javascript</p>
+						<p class=fragment>Form / input</p>
+						<p class=fragment>Frame</p>
+						<p class=fragment>Object</p>
+						<p class=fragment>Applet</p>
+						<p class=fragment>Embed</p>
+					</section>
+
+					<section>
+						<h1>Zasoby</h1>
+						<table>
+							<tr class=fragment><td>img</td><td>AMP-img</td></tr>
+							<tr class=fragment><td>video</td><td>AMP-video</td></tr>
+							<tr class=fragment><td>audio</td><td>AMP-audio</td></tr>
+							<tr class=fragment><td>iframe</td><td>AMP-iframe</td></tr>
+						</table>
+					</section>
+
+					<section>
+					 	<h2>Dodatki</h2>
+
+						<p>Piksele ze statystykami</p>
+						<p>Element AMP-ad</p>
+					</section>
+
+					<section>
+					 	<h2>Paywall</h2>
+
+						<p>W trakcie implementacji</p>
+					</section>
+
+					<section>
+						<h2>Kto za tym stoi</h2>
+						<p class=fragment>Google</p>
+						<p class=fragment>LinkedIn</p>
+						<p class=fragment>Pinterest</p>
+						<p class=fragment>Twitter</p>
+						<p class=fragment>WordPress.com</p>
+						<p class=fragment>...</p>
+					</section>
+				</section>
 			</div>
 
 		</div>
