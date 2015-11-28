@@ -120,7 +120,8 @@ section.example td {text-align:center;}
 					<h1>Accelerated Mobile Pages</h1>
 					<h3>dla 25% Internetu</h3>
 					<p>
-						<small><a href="http://piszek.com">Artur Piszek</a></small>
+						<small><a href="http://piszek.com">Artur Piszek</a><br>
+						Cognitive Engineer @ WordPress.com</small>
 					</p>
 				</section>
 
@@ -539,9 +540,13 @@ section.example td {text-align:center;}
 					{ src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
 					{ src: 'reveal.js/plugin/notes/notes.js', async: true }
-				]
+				],
+				keyboard: {
+				    39: 'next',
+				    37: 'prev'
+				}
 			});
-
+document.body.addEventListener('keydown', function(s) {console.log(s)});
 		</script>
 
 	</body>
