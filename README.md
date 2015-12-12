@@ -12,6 +12,10 @@ open index.html
 
 OR
 
+# Stripped down PDF Version:
+
+[Click here](https://github.com/artpi/slides-amp/blob/pdf/presentation.pdf)
+
 # Presentation in HTML!?
 
 This presentation is done in reveal.js
