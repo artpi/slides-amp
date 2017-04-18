@@ -16,7 +16,7 @@ OR
 
 [Click here](https://github.com/artpi/slides-amp/blob/pdf/presentation.pdf)
 
-# Presentation in HTML!?
+# Presentation in HTML!?ł
 
 This presentation is done in reveal.js
 
